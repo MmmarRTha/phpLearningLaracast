@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,10 +9,8 @@
 <h1>About Us  at <?= $name; ?></h1>
 </body>
 </html>
-=======
 <?php require('partials/header.php'); ?>
 
     <h1>About Us</h1>
 
 <?php require('partials/footer.php'); ?>
->>>>>>> main
