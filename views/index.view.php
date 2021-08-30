@@ -5,7 +5,15 @@
     <title>Php Learning Lessons</title>
 </head>
 <body>
-<ul>
+
+<nav>
+    <ul>
+        <li><a href="../views/about.view.php">About Us</a></li>
+        <li><a href="../views/contact.view.php">Contact Us</a></li>
+    </ul>
+</nav>
+
+<h1>My Tasks</h1>
     <?php foreach ($tasks as $task) : ?>
         <li>
             <?php if($task->completed) : ?>
@@ -15,7 +23,6 @@
             <?php endif; ?>
         </li>
     <?php endforeach; ?>
-</ul>
 
 </body>
 </html>
