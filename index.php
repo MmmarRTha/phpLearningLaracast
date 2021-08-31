@@ -2,6 +2,7 @@
 
 require 'vendor/autoload.php';
 require 'core/bootstrapping.php';
+use App\Core\{Router, Request};
 
-require Router::load('routes.php')
+Router::load('app/routes.php')
     ->direct(Request::uri(), Request::method());
